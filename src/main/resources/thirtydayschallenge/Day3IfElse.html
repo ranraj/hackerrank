@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<div class="row">
+    <div class="span-md-11 hr_tour-problem-statement problem-statement ">
+
+
+
+        <div class="content-text challenge-text mlB">
+            <div class="msB"><p><strong>Problem Statement</strong></p></div><div class="msB"><p>Welcome to Day 3! Check out <a href="https://youtu.be/07Yum5sXxT8">a review of if-else statements here</a>, or just jump right into the problem. </p>
+
+            <p>Using "if-else" you can perform decision making in your code. See the flowchart below (taken from wikipedia):</p>
+
+            <p><img src="https://s3.amazonaws.com/hr-challenge-images/13689/1446563087-4ec019a919-332px-If-Then-Else-diagram.svg.png" title="332px-If-Then-Else-diagram.svg.png"></p>
+
+            <p>This problem will test your knowledge on "if-else" statements.</p>
+
+            <p>Given an integer <span class="MathJax_Preview"></span><span class="MathJax" id="MathJax-Element-25-Frame" role="textbox" aria-readonly="true"><nobr><span class="math" id="MathJax-Span-91" style="width: 1.131em; display: inline-block;"><span style="display: inline-block; position: relative; width: 0.906em; height: 0px; font-size: 123%;"><span style="position: absolute; clip: rect(1.673em 1000.002em 2.622em -0.359em); top: -2.482em; left: 0.002em;"><span class="mrow" id="MathJax-Span-92"><span class="mi" id="MathJax-Span-93" style="font-family: MathJax_Math-italic;">N<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.093em;"></span></span></span><span style="display: inline-block; width: 0px; height: 2.486em;"></span></span></span><span style="border-left-width: 0.003em; border-left-style: solid; display: inline-block; overflow: hidden; width: 0px; height: 0.947em; vertical-align: -0.053em;"></span></span></nobr></span><script type="math/tex" id="MathJax-Element-25">N</script> as input, check the following:</p>
+
+            <ul>
+                <li>If <span class="MathJax_Preview"></span><span class="MathJax" id="MathJax-Element-26-Frame" role="textbox" aria-readonly="true"><nobr><span class="math" id="MathJax-Span-94" style="width: 1.131em; display: inline-block;"><span style="display: inline-block; position: relative; width: 0.906em; height: 0px; font-size: 123%;"><span style="position: absolute; clip: rect(1.673em 1000.002em 2.622em -0.359em); top: -2.482em; left: 0.002em;"><span class="mrow" id="MathJax-Span-95"><span class="mi" id="MathJax-Span-96" style="font-family: MathJax_Math-italic;">N<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.093em;"></span></span></span><span style="display: inline-block; width: 0px; height: 2.486em;"></span></span></span><span style="border-left-width: 0.003em; border-left-style: solid; display: inline-block; overflow: hidden; width: 0px; height: 0.947em; vertical-align: -0.053em;"></span></span></nobr></span><script type="math/tex" id="MathJax-Element-26">N</script> is odd, print <em>"Weird"</em>.</li>
+                <li>If <span class="MathJax_Preview"></span><span class="MathJax" id="MathJax-Element-27-Frame" role="textbox" aria-readonly="true"><nobr><span class="math" id="MathJax-Span-97" style="width: 1.131em; display: inline-block;"><span style="display: inline-block; position: relative; width: 0.906em; height: 0px; font-size: 123%;"><span style="position: absolute; clip: rect(1.673em 1000.002em 2.622em -0.359em); top: -2.482em; left: 0.002em;"><span class="mrow" id="MathJax-Span-98"><span class="mi" id="MathJax-Span-99" style="font-family: MathJax_Math-italic;">N<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.093em;"></span></span></span><span style="display: inline-block; width: 0px; height: 2.486em;"></span></span></span><span style="border-left-width: 0.003em; border-left-style: solid; display: inline-block; overflow: hidden; width: 0px; height: 0.947em; vertical-align: -0.053em;"></span></span></nobr></span><script type="math/tex" id="MathJax-Element-27">N</script> is even and, in between the range of 2 and 5(inclusive), print <em>"Not Weird"</em>.</li>
+                <li>If <span class="MathJax_Preview"></span><span class="MathJax" id="MathJax-Element-28-Frame" role="textbox" aria-readonly="true"><nobr><span class="math" id="MathJax-Span-100" style="width: 1.131em; display: inline-block;"><span style="display: inline-block; position: relative; width: 0.906em; height: 0px; font-size: 123%;"><span style="position: absolute; clip: rect(1.673em 1000.002em 2.622em -0.359em); top: -2.482em; left: 0.002em;"><span class="mrow" id="MathJax-Span-101"><span class="mi" id="MathJax-Span-102" style="font-family: MathJax_Math-italic;">N<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.093em;"></span></span></span><span style="display: inline-block; width: 0px; height: 2.486em;"></span></span></span><span style="border-left-width: 0.003em; border-left-style: solid; display: inline-block; overflow: hidden; width: 0px; height: 0.947em; vertical-align: -0.053em;"></span></span></nobr></span><script type="math/tex" id="MathJax-Element-28">N</script> is even and, in between the range of 6 and 20(inclusive), print <em>"Weird"</em>.</li>
+                <li>If <span class="MathJax_Preview"></span><span class="MathJax" id="MathJax-Element-29-Frame" role="textbox" aria-readonly="true"><nobr><span class="math" id="MathJax-Span-103" style="width: 1.131em; display: inline-block;"><span style="display: inline-block; position: relative; width: 0.906em; height: 0px; font-size: 123%;"><span style="position: absolute; clip: rect(1.673em 1000.002em 2.622em -0.359em); top: -2.482em; left: 0.002em;"><span class="mrow" id="MathJax-Span-104"><span class="mi" id="MathJax-Span-105" style="font-family: MathJax_Math-italic;">N<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.093em;"></span></span></span><span style="display: inline-block; width: 0px; height: 2.486em;"></span></span></span><span style="border-left-width: 0.003em; border-left-style: solid; display: inline-block; overflow: hidden; width: 0px; height: 0.947em; vertical-align: -0.053em;"></span></span></nobr></span><script type="math/tex" id="MathJax-Element-29">N</script> is even and <span class="MathJax_Preview"></span><span class="MathJax" id="MathJax-Element-30-Frame" role="textbox" aria-readonly="true"><nobr><span class="math" id="MathJax-Span-106" style="width: 4.022em; display: inline-block;"><span style="display: inline-block; position: relative; width: 3.254em; height: 0px; font-size: 123%;"><span style="position: absolute; clip: rect(1.899em 1000.002em 2.893em -0.359em); top: -2.708em; left: 0.002em;"><span class="mrow" id="MathJax-Span-107"><span class="mi" id="MathJax-Span-108" style="font-family: MathJax_Math-italic;">N<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.093em;"></span></span><span class="mo" id="MathJax-Span-109" style="font-family: MathJax_Main; padding-left: 0.273em;">&gt;</span><span class="mn" id="MathJax-Span-110" style="font-family: MathJax_Main; padding-left: 0.273em;">20</span></span><span style="display: inline-block; width: 0px; height: 2.712em;"></span></span></span><span style="border-left-width: 0.003em; border-left-style: solid; display: inline-block; overflow: hidden; width: 0px; height: 1.003em; vertical-align: -0.108em;"></span></span></nobr></span><script type="math/tex" id="MathJax-Element-30">N> 20</script>, print <em>"Not Weird"</em>.</li>
+            </ul>
+
+            <p>We have given you partially completed code in the editor, complete it to solve the problem.</p></div><div class="msB"><p><strong>Input Format</strong></p></div><div class="msB"><p>There is a single line of input: integer <span class="MathJax_Preview"></span><span class="MathJax" id="MathJax-Element-31-Frame" role="textbox" aria-readonly="true"><nobr><span class="math" id="MathJax-Span-111" style="width: 1.131em; display: inline-block;"><span style="display: inline-block; position: relative; width: 0.906em; height: 0px; font-size: 123%;"><span style="position: absolute; clip: rect(1.673em 1000.002em 2.622em -0.359em); top: -2.482em; left: 0.002em;"><span class="mrow" id="MathJax-Span-112"><span class="mi" id="MathJax-Span-113" style="font-family: MathJax_Math-italic;">N<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.093em;"></span></span></span><span style="display: inline-block; width: 0px; height: 2.486em;"></span></span></span><span style="border-left-width: 0.003em; border-left-style: solid; display: inline-block; overflow: hidden; width: 0px; height: 0.947em; vertical-align: -0.053em;"></span></span></nobr></span><script type="math/tex" id="MathJax-Element-31">N</script>.</p>
+
+            <p><strong>Constraints</strong> <br>
+                <span class="MathJax_Preview"></span><span class="MathJax" id="MathJax-Element-32-Frame" role="textbox" aria-readonly="true"><nobr><span class="math" id="MathJax-Span-114" style="width: 6.868em; display: inline-block;"><span style="display: inline-block; position: relative; width: 5.558em; height: 0px; font-size: 123%;"><span style="position: absolute; clip: rect(1.899em 1000.002em 2.983em -0.314em); top: -2.708em; left: 0.002em;"><span class="mrow" id="MathJax-Span-115"><span class="mn" id="MathJax-Span-116" style="font-family: MathJax_Main;">1</span><span class="mo" id="MathJax-Span-117" style="font-family: MathJax_Main; padding-left: 0.273em;">≤</span><span class="mi" id="MathJax-Span-118" style="font-family: MathJax_Math-italic; padding-left: 0.273em;">N<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.093em;"></span></span><span class="mo" id="MathJax-Span-119" style="font-family: MathJax_Main; padding-left: 0.273em;">≤</span><span class="mn" id="MathJax-Span-120" style="font-family: MathJax_Main; padding-left: 0.273em;">100</span></span><span style="display: inline-block; width: 0px; height: 2.712em;"></span></span></span><span style="border-left-width: 0.003em; border-left-style: solid; display: inline-block; overflow: hidden; width: 0px; height: 1.114em; vertical-align: -0.219em;"></span></span></nobr></span><script type="math/tex" id="MathJax-Element-32"> 1 \le N \le 100</script></p></div><div class="msB"><p><strong>Output Format</strong></p></div><div class="msB"><p>Print <em>"Weird"</em> if the number is weird. Otherwise, print <em>"Not Weird"</em>. Do not print the quotation marks.</p>
+
+            <p><strong>Sample Input 1</strong></p>
+
+<pre><code>3
+</code></pre>
+
+            <p><strong>Sample Output 1</strong></p>
+
+<pre><code>Weird
+</code></pre>
+
+            <p><br>
+                <strong>Explanation</strong> <br>
+                <em>N</em>=3, is odd hence the its a Weird Number.</p>
+
+            <p><strong>Sample Input 2</strong></p>
+
+<pre><code>24
+</code></pre>
+
+            <p><strong>Sample Output 2</strong></p>
+
+<pre><code>Not Weird
+</code></pre>
+
+            <p><br>
+                <strong>Explanation</strong> <br>
+                <em>N</em>=24, is &gt;20 hence its not a Weird Number.</p></div>
+        </div>
+
+    </div>
+    <aside class="span-md-4 pull-right fullscreen-hide challenge-sidebar">
+        <div class="challenge-sidebar-container">
+
+
+
+
+
+
+
+
+
+
+            <div class="sidebar_problem_difficulty">
+                <p class="sidebar_bold">Submissions:</p>
+
+                <a class="sidebar_subcount" href="/contests/30-days-of-code/challenges/day-3-if-statements/leaderboard" data-analytics="ChallengeViewHackerCount" data-attr1="day-3-if-statements">6621</a>
+
+
+                <div>
+                    <p class="sidebar_bold">Max Score:</p>
+                    <p class="sidebar_att">
+
+                        30
+
+                    </p>
+                </div>
+                <div>
+                    <p class="sidebar_bold">Difficulty: </p>
+                    <p class="sidebar_att">
+
+                        Easy
+
+                    </p>
+
+                </div>
+            </div>
+
+
+
+            <div id="sidebar-more-options" class="hide">
+                <div class="mlB mlT">
+                    <a class="challenge-sidebar-anchor pointer" href="/rest/contests/30-days-of-code/challenges/day-3-if-statements/download_pdf?language=English" target="_blank" id="pdf-link" data-analytics="ChallengeViewSidebarPDF" data-attr1="day-3-if-statements" style="color:#979faf;"><i class="icon-download"></i>Download PDF</a>
+                </div>
+
+                <div class="sidebar_challenge_suggestion fullscreen-hide">
+                    <a href="#" class="challenge-sidebar-anchor js-suggest-edits challenge_suggestion-toggle fullscreen-hide" data-analytics="ChallengeViewSuggestEdit" data-attr1="day-3-if-statements" style="color:#979faf;"><i class="icon-edit"></i>Suggest Edits</a>
+
+                    <div class="challenge_suggestion fullscreen-hide row">
+                        <div class="span11">
+                            <div class="formgroup text-center">
+                                <div class="alert error hide"></div>
+                                <div class="alert success hide">Suggestion Sent!</div>
+                            </div>
+                            <form id="suggestion-form" class="hide challenge_suggestion-form fullscreen-hide" __bizdiag="-1696069907" __biza="WJ__">
+                                <p class="challenge_suggestion-header pdB">Thanks for helping us refine this problem statement. Please address your suggestions below. </p>
+                                <textarea id="suggestion" rows="10" width="100" class="challenge_suggestion-input"></textarea>
+                                <div class="challenge_suggestion-buttons access-buttons clearfix">
+                                    <div class="pull-right mlB">
+                                        <button class="btn btn-green js-suggestion-save pull-right" data-analytics="Submit Suggestion">Submit Suggestion</button>
+                                        <button class="btn btn-text js-suggestion-cancel pull-right" data-analytics="Cancel Suggestion">Cancel</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="language-selector pmT">
+
+                    <div class="psT hide small color-alt-grey" id="preference-msg">
+                        <a class="language-preference btn btn-small msB" href="#">Set as default</a><br>
+                        <p class="mjB">You can always change back later.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="mlB mlT"><a id="sidebar-more-button" class="challenge-sidebar-anchor pointer">More</a></div>
+
+
+        </div></aside>
+</div>
+</body>
+</html>
